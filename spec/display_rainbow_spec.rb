@@ -24,7 +24,7 @@ describe '#display_rainbow' do
 end
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-def display_rainbow(color)
+def display_rainbow(colors)
   puts "R: #{color[0]}"
   puts "O: #{color[1]}"
   puts "Y: #{color[2]}"
